@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 1 Site Unblcoked Games</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover fun and exciting unblocked games for all ages! Browse games by category and play them right in your browser.">
+  <meta name="keywords" content="HTML5 unblockec games, mobile games, browser games, fun games, free games">
+  <meta name="author" content="Your Name">
+  <title>Fun Unblocked Games 🎮</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body stretches to fill the screen height */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.categories {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.categories a {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.categories a:hover {
+  background-color: #555;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game-item {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.game-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.game-item h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* New Ad Section */
+.ads {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ads img {
+  margin: 0 10px;
+  width: 970px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.sidebar-ads img {
+  margin: 10px 0;
+  width: 160px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Ensuring Footer is at the bottom */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto; /* Ensures footer sticks to the bottom */
+}
+
+
+  </style>
 </head>
 <body>
-    Lesson 1 Site Unblcoked Games
+
+<header>
+  <h1>🎮 Unblocked Fun Games for All Ages</h1>
+  <p>Browse through a wide variety of Unblocked games that you can play directly in your browser!</p>
+</header>
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search for a game... 🔍" onkeyup="searchGames()">
+</div>
+
+<div class="categories">
+  <a href="#action">Action 🎯</a>
+  <a href="#puzzle">Puzzle 🧩</a>
+  <a href="#strategy">Strategy ♟️</a>
+  <a href="#racing">Racing 🚗</a>
+  <a href="#arcade">Arcade 🕹️</a>
+</div>
+
+<!-- Ads Section -->
+<div class="ads">
+  <img src="https://www.gourmetads.com/wp-content/uploads/2019/02/970x250-starbucks-nitro.jpg" alt="Advertisement Banner">
+</div>
+<div class="game-list" id="gameList">
+  <!-- Sample Game Item 1 -->
+  <div class="game-item">
+    <img src="80x250.png" alt="Game 1">
+    <h3>Super Adventure Game</h3>
+    <p>A thrilling action-packed game!</p>
+    <a href="#">Play Now</a>
+  </div>
+
+  <!-- Sample Game Item 2 -->
+  <div class="game-item">
+    <img src="80x250.png" alt="Game 2">
+    <h3>Escape the Maze</h3>
+    <p>Test your puzzle-solving skills!</p>
+    <a href="#">Play Now</a>
+  </div>
+
+  <!-- Sample Game Item 3 -->
+  <div class="game-item">
+    <img src="80x250.png" alt="Game 3">
+    <h3>Race to the Finish Line</h3>
+    <p>Speed and precision will lead you to victory!</p>
+    <a href="#">Play Now</a>
+  </div>
+</div>
+
+<!-- Unblocked Games Article -->
+<div class="article" id="unblocked-games">
+  <h2>Unblocked Games: A Gateway to Fun and Entertainment</h2>
+  <p>Unblocked games are online games that can be played on school, work, or public networks, where gaming websites are typically restricted. These games are accessible without the need for any special software or configuration changes. Whether you're looking for action-packed shooters, brain-teasing puzzles, or even casual games to kill time, unblocked games provide an extensive library of entertainment that you can enjoy anywhere. One of the key advantages of unblocked games is that they allow people to take a break from work or study without the worry of being restricted by firewalls or network filters.</p>
+
+  <p>Many websites provide these games, making them an easy choice for students or professionals who wish to engage in a quick game without being hindered by restrictions. These games often come in a variety of genres including strategy, adventure, racing, and multiplayer. This variety ensures that there’s always something for everyone, regardless of age or interest.</p>
+
+  <p>Unblocked games are not only a source of fun but can also have educational benefits. Many of these games encourage problem-solving, critical thinking, and creativity. For example, puzzle games can enhance cognitive skills while strategy games develop planning and decision-making abilities. Racing and action games improve hand-eye coordination and reaction time. As a result, unblocked games can be an excellent way to relax and unwind, while also improving skills that can be useful in real-life situations.</p>
+
+  <p>Moreover, unblocked games are often updated with new content, ensuring that players always have access to fresh and exciting experiences. This dynamic content keeps the games engaging and encourages players to return for more fun. Additionally, since most of these games are browser-based, no downloads or installations are required, making them accessible from any device with an internet connection.</p>
+
+  <p>In conclusion, unblocked games provide an ideal solution for individuals looking for a quick and fun gaming experience without the hassle of network restrictions. They combine the thrill of gaming with the convenience of accessibility, making them a perfect choice for anyone looking to enjoy their free time. Whether you're playing alone or with friends, these games are an entertaining way to take a break and have fun wherever you are.</p>
+</div>
+
+
+
+<script>
+  function searchGames() {
+    var input, filter, gameList, gameItems, gameTitle, i, txtValue;
+    input = document.getElementById('searchInput');
+    filter = input.value.toUpperCase();
+    gameList = document.getElementById("gameList");
+    gameItems = gameList.getElementsByClassName('game-item');
+
+    for (i = 0; i < gameItems.length; i++) {
+      gameTitle = gameItems[i].getElementsByTagName("h3")[0];
+      txtValue = gameTitle.textContent || gameTitle.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        gameItems[i].style.display = "";
+      } else {
+        gameItems[i].style.display = "none";
+      }
+    }
+  }
+</script>
+<footer>
+  <p>&copy; 2025 HTML5 Games - All Rights Reserved</p>
+</footer>
 </body>
 </html>
